@@ -1,0 +1,219 @@
+
+:root {
+    --blue: #3EA1DB;
+    --blue-dark: #574AE8;
+    --white: #FFF;
+  
+    --title: #313131;
+    --text: #B6B6B6;
+    
+    --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+}
+
+@font-face {
+    font-family: primaria;
+    src: url(fontes/LexendDeca-Regular.ttf);
+}
+@font-face {
+    font-family: secundaria;
+    src: url(fontes/Inter-Medium.ttf);
+}
+
+*{
+   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    overflow-x: hidden; 
+}
+
+header{
+    background-image: var(--linear);
+    flex-shrink: 0;
+    height: 40vh;
+   
+}
+
+.grupo-textos{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 3rem;
+    left: -1rem;
+    margin:  0 auto;
+    color: white;
+    font-family: 'primaria', 'sans-serif';
+    
+}
+
+.agrupamento-input{
+    position: relative;
+    transform: translate(19vw,20vh);
+    
+}
+
+.texto{
+    position: absolute;
+    transform: translate(5vw,-3vh);
+    color: white;
+    opacity: 0.4;
+    font-size: 15px;
+    font-family: 'secundaria','sans-serif';
+    
+}
+
+.texto-pesquisa{
+    width: 100%;
+    max-width: 800px;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.20);
+    box-shadow: none;
+    margin: 0 auto;
+    position: absolute;
+    left: 1rem;
+    border: none;
+}
+
+.incone{
+    transform: translate(2vw,2vh);
+}
+
+section{
+    background: rgb(247, 244, 244);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    height: 150vh; 
+    min-height: 100vh; /* Altere para min-height para evitar que a seção fique muito pequena */
+    padding-top: 100px; /* Use padding-top em vez de margin-top */
+}
+
+
+
+.textos-grupos{
+    width: 100%; /* Use largura 100% para ocupar todo o espaço disponível */
+    max-width: 800px; /* Adicione um limite de largura */
+    margin: 0 auto; /* Centralize o elemento horizontalmente */
+    padding: 35px;
+    border-radius: 5px;
+    background: var(--white);
+    box-shadow: 0px 0px 10px 0px rgba(19, 19, 31, 0.05);
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Adicione position relative para .textos-grupos */
+}
+
+.incone-heat{
+    position: absolute;
+    transform: translate(50vw,-1vh);
+}
+
+
+/* Responsividade para telas menores */
+
+@media screen and (min-width:1281px) {
+    .grupo-textos{
+        left: 0px;
+        gap: 4rem;
+    }
+
+    .incone {
+        transform: translate(2vw,3vh);
+    }
+
+    .texto-pesquisa{
+        padding: 24px;
+    }
+
+    .texto {
+        transform: translate(5vw,-2vh);
+        font-size: 23px;
+    }
+
+    section { 
+        justify-content: start;
+        gap: 61px;
+        padding-top: 62px;
+    }
+
+    .incone-heat {
+        transform: translate(50vw,-1vh);
+    }
+    
+}
+
+@media screen and (min-width:1025px) and (max-width:1280px) {
+    .grupo-textos{
+        left: 0px;
+        gap: 7rem;
+    }
+
+    .incone {
+        transform: translate(2vw,3vh);
+    }
+
+    .texto-pesquisa{
+        padding: 24px;
+        transform: translate(-1vw,0vh);
+    }
+
+    .texto {
+        transform: translate(6vw,-1vh);
+        font-size: 24px;
+    }
+
+    section { 
+        justify-content: start;
+        gap: 61px;
+        padding-top: 62px;
+    }
+
+    .textos-grupos > p {
+        font-size: 20px;
+    }
+
+    .incone-heat {
+        transform: translate(54vw,-1vh);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .grupo-textos{
+        left: 5px;
+        gap: 26rem;
+    }
+
+    .incone {
+        transform: translate(-5vw,2vh);
+    }
+
+    .texto-pesquisa{
+        padding: 21px;
+        transform: translate(-9vw,-1vh);
+    }
+
+    .texto {
+        transform: translate(1vw,-3vh);
+        font-size: 24px;
+
+    }
+
+    section { 
+        justify-content: start;
+        gap: 61px;
+        padding-top: 62px;
+    }
+
+    .incone-heat {
+        transform: translate(66vw,-1vh);
+    }
+}
+
