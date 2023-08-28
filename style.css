@@ -219,8 +219,7 @@ section{
 
 @media screen and (min-width: 482px) and (max-width: 767px){
 
-}
-  .texto-pesquisa {
+    .texto-pesquisa {
         width: 100%;
         max-width: 691px;
    }
@@ -247,3 +246,19 @@ section{
         transform: translate(80vw,-1vh);
     }
 
+
+}
+  
+@media screen and (min-width:320px) and (max-width: 480px) {
+    .texto {
+        transform: translate(16vw,-3vh);
+    }
+
+    .agrupamento-input {
+        transform: translate(-3vw,20vh);
+    }
+
+    .incone {
+        transform: translate(6vw,1vh);
+    }
+}
