@@ -192,19 +192,18 @@ section{
     }
 
     .incone {
-        transform: translate(-3vw,2vh);
-    }
-
-    .texto-pesquisa{
-        padding: 21px;
-        transform: translate(-7vw,-1vh);
-      
+        transform: translate(-14vw,-1vh);
     }
 
     .texto {
-        transform: translate(2vw,-2vh);
+        transform: translate(-9vw,-5vh);
         font-size: 24px;
 
+    }
+    .texto-pesquisa{
+        padding: 21px;
+        transform: translate(-17vw,-3vh);
+      
     }
 
     section { 
