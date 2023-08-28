@@ -217,3 +217,33 @@ section{
     }
 }
 
+@media screen and (min-width: 482px) and (max-width: 767px){
+
+}
+  .texto-pesquisa {
+        width: 100%;
+        max-width: 691px;
+   }
+    .agrupamento-input {
+        transform: translate(1vw,20vh);
+    }
+
+    .incone {
+        transform: translate(4vw,1vh);
+        height: 29px;
+    }
+
+    .texto {
+        transform: translate(9vw,-3vh);  
+        font-size: 16px;  
+    }
+
+    section{
+        justify-content: flex-start;
+        padding-top: 71px;
+    }
+
+    .incone-heat {
+        transform: translate(80vw,-1vh);
+    }
+
