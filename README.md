@@ -1,8 +1,8 @@
 # Desafio1_Site_Noticias
 
-<img src="/imagem/Captura de Tela (15).png" width="600px">
+
 <h2>Discição Do Projeto</h2>
-<p>Desafios de front-end com projetos práticos da comunidade Codelândia no Discord, idealizada pelo Iuri Silva. <br>
+<p>Desafios de front-end com projetos práticos da comunidade Codelândia no Discord(<a href="https://discord.com/channels/853354677411905578/853363178901733387">), idealizada pelo Iuri Silva. <br>
   figma do projeto:<a href="https://www.figma.com/proto/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?type=design&node-id=202083-3649&scaling=min-zoom&page-id=0%3A1">Figma_Desafio01</a> 
 </p>
 
